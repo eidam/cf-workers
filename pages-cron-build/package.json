@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "cf-pages-cron-build",
+    "version": "1.0.0",
+    "description": "Simple CRON Trigger to trigger re-build of Cloudflare Pages deployment.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Adam Janiš",
+    "license": "MIT",
+    "devDependencies": {
+      "prettier": "^1.18.2"
+    }
+  }
+  

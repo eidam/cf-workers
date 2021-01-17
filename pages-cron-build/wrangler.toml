@@ -1,0 +1,10 @@
+type = "javascript"
+name = "cf-pages-cron-build"
+workers_dev = true
+
+account_id = "586ca2b1d190a8e97084c583ad8d7b58"
+
+vars = { ENV_ACCOUNT_ID = "586ca2b1d190a8e97084c583ad8d7b58", ENV_PAGES_ID = "workers-catalog" }
+
+[triggers]
+crons = ["0 * * * *"]
