@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "cf-pages-branch-preview",
+  "version": "1.0.0",
+  "description": "Simple CRON Trigger to trigger to fetch latest branch builds and Worker to proxy them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Adam Janiš",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

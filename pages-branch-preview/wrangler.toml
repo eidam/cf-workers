@@ -1,0 +1,15 @@
+type = "javascript"
+name = "cf-pages-branch-preview"
+workers_dev = true
+
+account_id = "fbbebdb1eed350f2a05f517e1d80915f"
+
+vars = { ENV_ACCOUNT_ID = "fbbebdb1eed350f2a05f517e1d80915f", ENV_PAGES_ID = "statusflare-temp", ENV_HOSTNAME_SUFFIX = "-pages-preview.statusflare.com"}
+
+# wrangler kv:namespace create KV_PAGES_BRANCH_PREVIEW
+kv_namespaces = [ 
+    { binding = "KV_PAGES_BRANCH_PREVIEW", id = "5852640fc98748a4a44e15e461362d28", preview_id = "5852640fc98748a4a44e15e461362d28" }
+]
+
+[triggers]
+crons = ["0 * * * *"]
