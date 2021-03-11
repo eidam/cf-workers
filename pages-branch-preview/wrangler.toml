@@ -12,4 +12,4 @@ kv_namespaces = [
 ]
 
 [triggers]
-crons = ["0 * * * *"]
+crons = ["*/2 * * * *"] # every 2 minutes fits to a Workers + KV free tier
